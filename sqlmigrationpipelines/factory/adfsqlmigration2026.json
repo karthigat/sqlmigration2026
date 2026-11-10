@@ -1,0 +1,15 @@
+{
+	"name": "adfsqlmigration2026",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2f0e6681-56fe-4162-9d47-db74c299696a",
+		"tenantId": "dedd9e24-c5cf-41bc-9b08-a5b8a989d5ec"
+	}
+}

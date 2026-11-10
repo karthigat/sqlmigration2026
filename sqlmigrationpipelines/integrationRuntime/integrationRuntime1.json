@@ -1,0 +1,12 @@
+{
+	"name": "integrationRuntime1",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/fb0c4790-8e91-4972-90f4-d3ca1985a86e/resourcegroups/rgdevchevronproject/providers/Microsoft.DataFactory/factories/adfchevronprojectdev/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}
