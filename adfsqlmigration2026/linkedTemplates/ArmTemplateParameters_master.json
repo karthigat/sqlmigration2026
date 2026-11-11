@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsqlmigration2026"
+		},
+		"LS_SINK_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_SERVER_password": {
+			"value": ""
+		},
+		"LS_SINK_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevsqlsink2026.dfs.core.windows.net/"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_server": {
+			"value": "LAPTOP-532UNUOO"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_database": {
+			"value": "SqlMigration2026"
+		},
+		"LS_SQL_SERVER_properties_typeProperties_userName": {
+			"value": "karthigat"
+		},
+		"integrationRuntime1_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/fb0c4790-8e91-4972-90f4-d3ca1985a86e/resourcegroups/rgdevchevronproject/providers/Microsoft.DataFactory/factories/adfchevronprojectdev/integrationruntimes/integrationRuntime1"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
